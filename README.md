@@ -114,11 +114,6 @@ liri do-what-it-says
 
 ```
 spotify-this-song,"I Want it That Way"
-```
-
-* This would call the spotifyThis function and pass in "Peter Piper" as the song.
-
-* This should work for any function and parameter you use.
 
 * All commands and output are logged in terminal.log.
 

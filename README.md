@@ -104,7 +104,7 @@ liri movieThis <movie name>
 * if no movie is provided then the program will output information for the movie  'Mr. Nobody.'
 
 ```
-liri ddWhatItSays
+liri doWhatItSays
 ```
 
 * The program will take the text inside of random.txt and use it to call the first command with the second part as it's parameter

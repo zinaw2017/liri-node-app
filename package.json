@@ -1,30 +1,51 @@
 {
-  "name": "liri-node-app",
-  "version": "1.0.0",
-  "description": "liri-app",
-  "main": "keys.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "_from": "verror@1.10.0",
+  "_id": "verror@1.10.0",
+  "_inBundle": false,
+  "_integrity": "sha1-OhBcoXBTr1XW4nDB+CiGguGNpAA=",
+  "_location": "/verror",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "verror@1.10.0",
+    "name": "verror",
+    "escapedName": "verror",
+    "rawSpec": "1.10.0",
+    "saveSpec": null,
+    "fetchSpec": "1.10.0"
   },
+  "_requiredBy": [
+    "/jsprim"
+  ],
+  "_resolved": "https://registry.npmjs.org/verror/-/verror-1.10.0.tgz",
+  "_shasum": "3a105ca17053af55d6e270c1f8288682e18da400",
+  "_spec": "verror@1.10.0",
+  "_where": "C:\\Users\\tsion\\Desktop\\Liri-Node-App\\node_modules\\jsprim",
+  "bugs": {
+    "url": "https://github.com/davepacheco/node-verror/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "assert-plus": "^1.0.0",
+    "core-util-is": "1.0.2",
+    "extsprintf": "^1.2.0"
+  },
+  "deprecated": false,
+  "description": "richer JavaScript errors",
+  "engines": [
+    "node >=0.6.0"
+  ],
+  "homepage": "https://github.com/davepacheco/node-verror#readme",
+  "license": "MIT",
+  "main": "./lib/verror.js",
+  "name": "verror",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zinaw2017/liri-node-app.git"
+    "url": "git://github.com/davepacheco/node-verror.git"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/zinaw2017/liri-node-app/issues"
+  "scripts": {
+    "test": "make test"
   },
-  "homepage": "https://github.com/zinaw2017/liri-node-app#readme",
-  "dependencies": {
-<<<<<<< HEAD
-    "fs-extra": "^4.0.2",
-    "node-spotify-api": "^1.0.7",
-    "omdb": "^0.8.0",
-=======
-    "node-spotify-api": "^1.0.7",
->>>>>>> 702e084320cbf4158acbbfa553c3c4a656b131d8
-    "request": "^2.83.0",
-    "twitter": "^1.7.1"
-  }
+  "version": "1.10.0"
 }

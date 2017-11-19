@@ -72,7 +72,7 @@ liri mytweets
 * will log your last 20 tweets and when they were created
 
 ```
-liri spotify 'song name'
+$ node liri.js doWhatItSays
 ```
 
 * log the following information about the song:
